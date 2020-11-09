@@ -1,0 +1,10 @@
+<?php
+
+if($_SERVER['REQUEST_METHOD']=='GET'){
+$id = $_GET['id'];
+$fetch_id = "SELECT * FROM `ipl_players` WHERE `id` = '$id'";
+$result = mysqli_query($conn,$fetch_id);
+
+
+
+?>

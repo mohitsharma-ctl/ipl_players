@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        #form{
+
+            position:absolute;
+            left:470px;
+            width: 400px;
+            height: 350px;
+            
+        }
+        #btn1{
+            align-items: center;
+        }
+
+    </style>
+
+</head>
+<body class="container-fluid">
+
+    <div class="row shadow-sm">
+        <div class="col-md-6 col-sm-1 col-md-offset-3 shadow-lg pt-4" id="form">
+            <center><h1></b>Admin Panel</b></h1></center>
+            <form class="" method="POST" action="admin/dashboard.html">
+                <div class="form-group">
+                    <i class="fa fa-user-o" style="color: blue;"></i><label for="username">Username</label>
+                    <input class="form-control pt-1" name="username" type="text"></input>
+                </div>
+                <div class="form-group">
+                    <i class="fa fa-key" style="color: blue;"></i><label for="password">Password</label>
+                    <input class="form-control pt-1" name="password" type="password"></input>
+                </div>
+                <div class="form-group">
+                    
+                    <input class="btn btn-primary" id="btn1" type="submit" value="Login"></input>
+                    <a href="register.html"><input class="btn btn-danger " id="btn1" type="button" value="Register"></input></a>
+                    <i class="fa fa-arrow-left pr-3" style="float:right"><a href="#" style="text-decoration: none; color: black;">Back</a></i>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

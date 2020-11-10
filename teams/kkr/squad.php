@@ -31,7 +31,7 @@ include('../../config.php');
 <table class="table table-dark table-hover" style="width:550px;">
 <?php
 
-$sql = "SELECT * FROM `ipl_players` WHERE team = 'csk'";
+$sql = "SELECT * FROM `ipl_players` WHERE team = 'kkr'";
 $query = mysqli_query($conn,$sql);
 $counter = 1;
 
